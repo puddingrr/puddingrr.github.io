@@ -1,2103 +1,307 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home Default || Inbio - Personal Portfolio Bootstrap-5 Template</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <!-- CSS 
-    ============================================ -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/slick.css">
-    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/vendor/aos.css">
-    <link rel="stylesheet" href="assets/css/plugins/feature.css">
-    <!-- Style css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ra Dalin — Mobile Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
-<body
-class="template-color-1 spybody white-version"
-data-spy="scroll"
-data-target=".navbar-example2"
-data-offset="150"
->
-<!-- Start Header -->
-<header
-  class="rn-header haeder-default black-logo-version header--fixed header--sticky"
->
-  <div
-    class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center"
-  >
-    <!-- Start Header Left -->
-    <div class="col-lg-2 col-6">
-      <div class="header-left">
-        <div class="logo">
-          <img src="assets/images/logo/dalin.png" alt="logo" />
+<body>
+
+  <!-- Ambient blobs -->
+  <div class="ambient ambient-1"></div>
+  <div class="ambient ambient-2"></div>
+
+  <!-- ─── Navigation ─────────────────────────────────────── -->
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-brand" href="#">
+        <div class="nav-avatar">
+          <img src="assets/images/logo/dalynPf.png" alt="Ra Dalin" />
         </div>
-      </div>
+        <span class="nav-name">Ra Dalin</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link-about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link-contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <!-- Sun icon -->
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--text)">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <!-- Moon icon -->
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--text)">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
     </div>
-    <!-- End Header Left -->
-    <!-- Start Header Center -->
-    <div class="col-lg-10 col-6">
-      <div class="header-center">
-        <nav
-          id="sideNav"
-          class="mainmenu-nav navbar-example2 d-none d-xl-block onepagenav"
-        >
-          <!-- Start Mainmanu Nav -->
-          <ul class="primary-menu nav nav-pills">
-            <li class="nav-item current">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#resume">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog">About Me</a>
-            </li>
-          </ul>
-          <!-- End Mainmanu Nav -->
-        </nav>
+  </nav>
+
+  <!-- ─── Main ───────────────────────────────────────────── -->
+  <main>
+    <!-- HERO -->
+    <section id="about">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Open for work
+        </div>
+        <h1 class="hero-title">
+          Ra Dalin<br>
+          <span class="gradient-text">Mobile Developer</span>
+        </h1>
+        <p class="hero-sub">
+        Mobile Developer with hands-on experience building polished, user-friendly applications across iOS, Android, and web
+        platforms. Skilled in creating high-performance applications, API integration, App Store Submission and implementing scalable architectures such as MVVM to build clean and maintainable projects.
+        </p>
       </div>
-    </div>
-    <!-- End Header Center -->
-  </div>
-</header>
-<!-- End Header Area -->
-<!-- Start Popup Mobile Menu  -->
+      <!-- <div class="hero-visual">
+        <div class="hero-phone-stack">
+          <div class="mini-phone mini-phone-1"></div>
+          <div class="mini-phone mini-phone-2"></div>
+        </div>
+      </div> -->
+    </section>
+  </main>
+  
+  <!-- ─── Skills ──────────────────────────────────────────── -->
+  <section id="skills">
+    <div id="skill-mount"></div>
+  </section>
 
-<!-- End Popup Mobile Menu  -->
+  <main>
+    <!-- PROJECTS (injected from project.html) -->
+    <div id="project-mount"></div>
 
-<main class="main-page-wrapper">
-  <!-- Start Slider Area -->
-  <div id="home" class="rn-slider-area">
-    <div class="slide slider-style-1">
-      <div class="container">
-        <div class="row row--30 align-items-center">
-          <div
-            class="order-2 order-lg-1 col-lg-6 mt_md--50 mt_sm--50 mt_lg--30"
-          >
-            <div class="content">
-              <div class="inner">
-                <span class="subtitle">Welcome to my Portfolio</span>
-                <h1 class="title">
-                  Hi, I'm <span>Ra Dalin</span><br />
-                  <span class="header-caption" id="page-top">
-                    <!-- type headline start-->
-                    <span class="cd-headline clip is-full-width">
-                      <span>a</span>
-                      <!-- ROTATING TEXT -->
-                      <span class="cd-words-wrapper">
-                        <b class="is-visible">iOS Developer</b>
-                        <b class="is-hidden">Mobile Developer</b>
-                        <b class="is-hidden">BackEnd Developer</b>
-                      </span>
-                    </span>
-                    <!-- type headline end -->
-                  </span>
-                </h1>
+    <!-- Experience section -->
+    <div id="experience-mount"></div>
 
-                <div>
-                  <p class="description">
-                    As a developer specializing in iOS development, I am passionate about creating high-quality, user-friendly
-                    applications. With experience in mobile I have contributed to projects that enhance user experiences and drive
-                    innovation. I am eager to apply my expertise in a dynamic team, tackling challenges and pushing the boundaries of iOS
-                    development.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
-                  <div class="social-share-inner-left">
-                    <span class="title">find with me</span>
-                    <ul class="social-share d-flex liststyle">
-                      <li class="facebook">
-                        <a href="https://www.facebook.com/lixin.17" target="_blank" rel="noopener noreferrer">
-                          <i data-feather="facebook"></i>  
-                        </a>
-                      </li>
-                      <li class="instagram">
-                        <a href="https://www.instagram.com/_lypor_/" target="_blank" rel="noopener noreferrer">
-                          <i data-feather="instagram"></i>  
-                        </a>
-                      </li>
-                      <li class="linkedin">
-                        <a href="https://www.linkedin.com/in/ra-dalin-901795322/" target="_blank" rel="noopener noreferrer">
-                          <i data-feather="linkedin"></i>  
-                        </a>
-                      </li>
-                      <li class="telegram">
-                        <a href="https://t.me/Dalliyn" target="_blank" rel="noopener noreferrer">
-                          <i data-feather="send"></i>  
-                        </a>
-                      </li>
-                      
-                      
-                    </ul>
-                    
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30"
-                >
-                  <div class="skill-share-inner">
-                    <span class="title">best skill on</span>
-                    <ul class="skill-share d-flex liststyle">
-                        <li>
-                          <img src="assets/images/icons/Xcode.png" 
-                               alt="Icons Images" />
-                        </li>
-                      <li>
-                        <img
-                          src="assets/images/icons/Kotlin.jpg"
-                          alt="Icons Images"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="assets/images/icons/swift.png"
-                          alt="Icons Images"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="assets/images/icons/laravel.png"
-                          alt="Icons Images"
-                        />
-                      </li>
-                    
-                      <li>
-                        <img
-                          src="assets/images/icons/icons-03.png"
-                          alt="Icons Images"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="assets/images/icons/icons-24.png"
-                          alt="Icons Images"
-                        />
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+    <!-- ── University Final Projects ── -->
+    <section id="experience">
+      <div class="exp-timeline">
+        <div class="exp-entry">
+          <div class="exp-left">
+            <div class="exp-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z" />
+                <path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5" />
+              </svg>
             </div>
           </div>
-
-          <div class="order-1 order-lg-5 col-lg-6">
-            <div class="thumbnail">
-              <div class="inner">
-                <img
-                  src="assets/images/portfolio/portfolio-16.jpg"
-                  alt="Personal Portfolio Images"
-                />
-              </div>
+          <div class="exp-body">
+            <div class="exp-meta-row">
+              <span class="exp-period">2023 — 2024</span>
+              <span class="exp-pill exp-pill-intern">Academic</span>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Slider Area -->
-
-  <!-- Start Service Area -->
-  <!-- <div
-    class="rn-service-area rn-section-gap section-separator"
-    id="features"
-  >
+            <h3 class="exp-role">University Final Projects</h3>
+            <p class="exp-company">RUPP &nbsp;&amp;&nbsp; ADITI Academy</p>
+            <p class="exp-desc">Capstone projects spanning mobile and web development across two institutions,
+              covering native iOS, Android, and full-stack web.</p>
     
-  </div> -->
-  <!-- End Service Area  -->
-
-  <!-- Start Portfolio Area -->
-  <div
-    class="rn-portfolio-area rn-section-gap section-separator"
-    id="portfolio"
-  >
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-title text-center">
-            <span class="subtitle">Portfolio </span>
-            <h2 class="title">My Portfolio</h2>
-                <span style="padding: 10px;" class="subtitle">Click to see the videos  </span>
-
+            <!-- Mobile sub-label -->
+            <div class="exp-sub-label">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="5" y="2" width="14" height="20" rx="2" />
+                <circle cx="12" cy="17" r="1" />
+              </svg>
+              Mobile Applications
+            </div>
+    
+            <div class="exp-proj-list">
+    
+              <!-- Day Toon -->
+              <div class="exp-proj-row">
+                <div class="exp-proj-info">
+                  <p class="exp-proj-name">Day Toon <span class="exp-proj-chip">RUPP</span></p>
+                  <p class="exp-proj-desc">Group project — Android entertainment app built with Kotlin,
+                    integrating third-party APIs from RapidAPI.</p>
+                  <div class="exp-tags" style="margin-top:6px">
+                    <span class="exp-tag">Kotlin</span>
+                    <span class="exp-tag">Android</span>
+                    <span class="exp-tag">RapidAPI</span>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- Pet Rescue -->
+              <div class="exp-proj-row">
+                <div class="exp-proj-info">
+                  <p class="exp-proj-name">Pet Rescue <span class="exp-proj-chip">ADITI</span></p>
+                  <p class="exp-proj-desc">iOS app built with UIKit — fetch all pets, user posts, search pets,
+                    fetch favourites, and adoption flows via REST API.</p>
+                  <div class="exp-tags" style="margin-top:6px">
+                    <span class="exp-tag">Swift</span>
+                    <span class="exp-tag">UIKit</span>
+                    <span class="exp-tag">REST API</span>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+            <!-- Web sub-label -->
+            <div class="exp-sub-label" style="margin-top:16px">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <path
+                  d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
+              Web Applications
+            </div>
+    
+            <div class="exp-proj-list">
+    
+              <!-- Pet Shop -->
+              <div class="exp-proj-row">
+                <div class="exp-proj-info">
+                  <p class="exp-proj-name">Pet Shop <span class="exp-proj-chip">RUPP</span></p>
+                  <p class="exp-proj-desc">Team project (2 devs) — Full Stack Developer role. Built a
+                    user-friendly pet shop website using the Laravel framework with intuitive, responsive
+                    UI.</p>
+                  <div class="exp-tags" style="margin-top:6px">
+                    <span class="exp-tag">Laravel</span>
+                    <span class="exp-tag">PHP</span>
+                    <span class="exp-tag">MySQL</span>
+                    <span class="exp-tag">Full Stack</span>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
           </div>
-         
         </div>
       </div>
+    </section>
 
-      <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
-        <!-- Start Single Portfolio - Pet Rescue -->
-        <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
-          class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-          <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#modalPetRescue">
-            <div class="inner">
-              <div class="thumbnail" style="position: relative;">
-                <a href="javascript:void(0)">
-                  <img src="assets/images/videos/result.png" alt="Pet Rescue Image" width="100%" />
-                  <!-- <div class="play-button-overlay">
-          <img
-            src="assets/images/videos/depositphotos_218191188-stock-illustration-play-icon-trendy-design-style.png"
-            alt="Play Button"
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-card">
+        <h2 class="contact-title">Let's build something great.</h2>
+        <p class="contact-sub">Open to full-time roles, contracts &amp; exciting side projects.</p>
+        <div class="contact-links">
+          <a class="contact-btn contact-btn-primary" href="dalinra37@gmail.com">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            Send an email
+          </a>
+          <a class="contact-btn contact-btn-secondary" href="https://github.com/puddingrr">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a class="contact-btn contact-btn-secondary" href="https://www.linkedin.com/in/ra-dalin-901795322/s">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── Footer ─────────────────────────────────────────── -->
+  <footer>
+    Designed &amp; coded by Alex Mercer &nbsp;·&nbsp; 2025
+  </footer>
+
+  <script>
+    // ── Theme Switcher ──────────────────────────────────────
+    const toggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved) html.setAttribute('data-theme', saved);
+    toggle.addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+
+    // ── Shared reveal helper — call after any inject ────────
+    function observeReveals(root) {
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.05, rootMargin: '0px 0px 100px 0px' });
+            root.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+    }
+      // ── Fetch & inject experience ───────────────────────
+    fetch('experience.html')
+        .then(r => { if (!r.ok) throw new Error(); return r.text(); })
+        .then(html => {
+          const mount = document.getElementById('experience-mount');
+          mount.innerHTML = html;
+          setTimeout(() => observeReveals(mount), 100); // add this timeout
+        })
+        .catch(e => console.warn('experience.html:', e));
         
-            class="play-button"
-          />
-        </div> -->
-                </a>
-              </div>
-              <div class="content">
-                <div class="category-info">
-                  <div class="category-list">
-                    <a href="javascript:void(0)">Web development</a>
-                  </div>
-                </div>
-                <h4 class="title">
-                  <a href="javascript:void(0)">
-                    Pet Rescue: A place where stressed animals find love and care.
-                    <i class="feather-arrow-up-right"></i>
-                  </a>
-                </h4>
-              </div>
-            </div>
-          </div>
+    // ── Fetch & inject project cards ───────────────────────
+   fetch('project.html')
+      .then(r => {
+        if (!r.ok) throw new Error('project.html not found');
+        return r.text();
+      })
+      .then(html => {
+        const mount = document.getElementById('project-mount');
+        mount.innerHTML = html;
+        observeReveals(mount);
 
+        // After inject, scroll to #projects if that's the hash
+        // if (location.hash === '#projects') {
+        //   const target = document.getElementById('projects');
+        //   if (target) target.scrollIntoView({ behavior: 'smooth' });
+        // }
+      })
+      .catch(e => console.warn('project.html:', e));
 
-        </div>
-        <!-- End Single Portfolio -->
-      
-        <!-- Start Single Portfolio - Pet Shop -->
-        <div
-          data-aos="fade-up"
-          data-aos-delay="300"
-          data-aos-once="true"
-          class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
-        >
-          <div
-            class="rn-portfolio"
-            data-bs-toggle="modal"
-            data-bs-target="#modalPetShop"
-          >
-            <div class="inner">
-              <div class="thumbnail" style="position: relative;">
-                <a href="javascript:void(0)">
-                  <img
-                    src="assets/images/videos/photo_2024-08-09_23-29-04.jpg"
-                    alt="Pet Rescue Image"
-                    width="100%"
-                  />
-                  <!-- <div class="play-button-overlay">
-                    <img
-                      src="assets/images/videos/depositphotos_218191188-stock-illustration-play-icon-trendy-design-style.png"
-                      alt="Play Button"
-                  
-                      class="play-button"
-                    />
-                  </div> -->
-                </a>
-              </div>
-              <div class="content">
-                <div class="category-info">
-                  <div class="category-list">
-                    <a href="javascript:void(0)">Web Development</a>
-                  </div>
-                </div>
-                <h4 class="title">
-                  <a href="javascript:void(0)">
-                    Pet Shop: A website that allows admins to sell their products.
-                    <i class="feather-arrow-up-right"></i>
-                  </a>
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Single Portfolio -->
-      
-        <!-- Start Single Portfolio - Day Toon -->
-        <div
-          data-aos="fade-up"
-          data-aos-delay="500"
-          data-aos-once="true"
-          class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
-        >
-          <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#modalDayToon">
-            <div class="inner">
-              <div class="thumbnail" style="position: relative;">
-                <a href="javascript:void(0)">
-                  <img src="assets/images/videos/tg_image_2776620457.jpeg" alt="Pet Rescue Image" width="100%" />
-                  <!-- <div class="play-button-overlay">
-                              <img
-                                src="assets/images/videos/depositphotos_218191188-stock-illustration-play-icon-trendy-design-style.png"
-                                alt="Play Button"
-                            
-                                class="play-button"
-                              />
-                            </div> -->
-                </a>
-              </div>
-              <div class="content">
-                <div class="category-info">
-                  <div class="category-list">
-                    <a href="javascript:void(0)">Android Development</a>
-                  </div>
-                </div>
-                <h4 class="title">
-                  <a href="javascript:void(0)">
-                    Day Toon: The Novel Mobile App.
-                    <i class="feather-arrow-up-right"></i>
-                  </a>
-                </h4>
-              </div>
-            </div>
-          </div>
-          </div>
-          <!-- End Single Portfolio -->
-          </div>
-          
-          <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
-            <!-- Start Single Portfolio - Pet Rescue -->
-            <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
-              class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-              <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#modalPetRescue">
-                <div class="inner">
-                  <div class="thumbnail" style="position: relative;">
-                    <a href="javascript:void(0)">
-                      <img src="assets/images/videos/result.png" alt="Pet Rescue Image" width="100%" />
-                      <!-- <div class="play-button-overlay">
-                    <img
-                      src="assets/images/videos/depositphotos_218191188-stock-illustration-play-icon-trendy-design-style.png"
-                      alt="Play Button"
-                  
-                      class="play-button"
-                    />
-                  </div> -->
-                    </a>
-                  </div>
-                  <div class="content">
-                    <div class="category-info">
-                      <div class="category-list">
-                        <a href="javascript:void(0)">iOS development</a>
-                      </div>
-                    </div>
-                    <h4 class="title">
-                      <a href="javascript:void(0)">
-                        Pet Rescue: A place where stressed animals find love and care.
-                        <i class="feather-arrow-up-right"></i>
-                      </a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-          
-          
-            </div>
-            <!-- End Single Portfolio -->
-          
-            <!-- Start Single Portfolio - Pet Shop -->
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"
-              class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-              <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#modalPetShop">
-                <div class="inner">
-                  <div class="thumbnail" style="position: relative;">
-                    <a href="javascript:void(0)">
-                      <img src="assets/images/videos/photo_2024-08-09_23-29-04.jpg" alt="Pet Rescue Image" width="100%" />
-                      <!-- <div class="play-button-overlay">
-                              <img
-                                src="assets/images/videos/depositphotos_218191188-stock-illustration-play-icon-trendy-design-style.png"
-                                alt="Play Button"
-                            
-                                class="play-button"
-                              />
-                            </div> -->
-                    </a>
-                  </div>
-                  <div class="content">
-                    <div class="category-info">
-                      <div class="category-list">
-                        <a href="javascript:void(0)">iOS Development</a>
-                      </div>
-                    </div>
-                    <h4 class="title">
-                      <a href="javascript:void(0)">
-                        Pet Shop: A website that allows admins to sell their products.
-                        <i class="feather-arrow-up-right"></i>
-                      </a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Single Portfolio -->
-          
-            <!-- Start Single Portfolio - Day Toon -->
-            <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true"
-              class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-              <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#modalDayToon">
-                <div class="inner">
-                  <div class="thumbnail" style="position: relative;">
-                    <a href="javascript:void(0)">
-                      <img src="assets/images/videos/tg_image_2776620457.jpeg" alt="Pet Rescue Image" width="100%" />
-                      <!-- <div class="play-button-overlay">
-                              <img
-                                src="assets/images/videos/depositphotos_218191188-stock-illustration-play-icon-trendy-design-style.png"
-                                alt="Play Button"
-                            
-                                class="play-button"
-                              />
-                            </div> -->
-                    </a>
-                  </div>
-                  <div class="content">
-                    <div class="category-info">
-                      <div class="category-list">
-                        <a href="javascript:void(0)">iOS Development</a>
-                      </div>
-                    </div>
-                    <h4 class="title">
-                      <a href="javascript:void(0)">
-
-                        <i class="feather-arrow-up-right"></i>
-                      </a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Single Portfolio -->
-          </div>
-
-      <!-- Modal for Pet Rescue -->
-      <div
-        class="modal fade"
-        id="modalPetRescue"
-        tabindex="-1"
-        aria-labelledby="modalPetRescueLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalPetRescueLabel">Pet Rescue Video </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <video width="100%" controls>
-                <source src="assets/images/videos/DemoPetR.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-              <div class="modal-description mt-3">
-                Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.          Pet Rescue: A place where stressed animals find love and care.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Modal for Pet Shop -->
-      <div
-        class="modal fade"
-        id="modalPetShop"
-        tabindex="-1"
-        aria-labelledby="modalPetShopLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalPetShopLabel">Pet Shop Video</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <video width="100%" controls>
-                <source src="assets/images/videos/PetShop.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-              <div class="modal-description mt-3">
-                Pet Shop: A website that allows admins to sell their products.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Modal for Day Toon -->
-      <div
-        class="modal fade"
-        id="modalDayToon"
-        tabindex="-1"
-        aria-labelledby="modalDayToonLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalDayToonLabel">Day Toon Video</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-                    <video width="100%" controls>
-                <source src="assets/images/videos/daytoon.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-              <div class="modal-description mt-3">
-                Day Toon: The Novel Mobile App.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-    <div>
-    </div>
-  </div>
-
-  <!-- End portfolio Area -->
-
-  <!-- Start Resume Area -->
-  <div class="rn-resume-area rn-section-gap section-separator" id="resume">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-title text-center">
-            <span class="subtitle">Resume</span>
-            <h2 class="title">My Resume</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row mt--45">
-        <div class="col-lg-12">
-          <!-- Start Tab Content Wrapper  -->
-          <div class="rn-nav-content tab-content" id="myTabContents">
-            <!-- Start Single Tab  -->
-            <div
-              class="tab-pane show active fade single-tab-area"
-              id="education"
-              role="tabpanel"
-              aria-labelledby="education-tab"
-            >
-            <div class="personal-experience-inner mt--40">
-            
-              <!-- Title -->
-              <div class="content">
-                <span class="subtitle">Skill</span>
-                <h4 class="maintitle">Development Skills</h4>
-              </div>
-            
-              <!-- ================= Programming ================= -->
-            
-              <span class="title">Programming Language:</span>
-            
-              <div class="skill-wrapper mt--20">
-            
-                <div class="skill-item">SwiftUI</div>
-                <div class="skill-item">UIKit</div>
-                <div class="skill-item">Storyboard</div>
-                <div class="skill-item">Flutter</div>
-                <div class="skill-item">PHP</div>
-                <div class="skill-item">HTML</div>
-                <div class="skill-item">CSS</div>
-            
-              </div>
-            
-              <!-- ================= Tools ================= -->
-            
-              <span class="title">Tools & Platforms:</span>
-            
-              <div class="skill-wrapper mt--20">
-            
-                <div class="skill-item">Xcode</div>
-                <div class="skill-item">Android Studio</div>
-                <div class="skill-item">GitHub</div>
-                <div class="skill-item">Postman</div>
-                <div class="skill-item">Firebase</div>
-                <div class="skill-item">MySQL</div>
-                <div class="skill-item">PostgreSQL</div>
-                <div class="skill-item">PhpMyAdmin</div>
-                <div class="skill-item">Jira</div>
-                <div class="skill-item">Confluence</div>
-            
-              </div>
-            
-              <!-- ================= Technologies ================= -->
-            
-              <span class="title">Technologies & Skills:</span>
-            
-              <div class="skill-wrapper mt--20">
-            
-                <div class="skill-item">API Integration</div>
-                <div class="skill-item">WebSocket</div>
-                <div class="skill-item">App Store Release</div>
-                <div class="skill-item">Responsive UI</div>
-            
-              </div>
-            
-              <!-- ================= Design ================= -->
-            
-              <span class="title">Design UX/UI Tools:</span>
-            
-              <div class="skill-wrapper mt--20">
-            
-                <div class="skill-item">Figma</div>
-                <div class="skill-item">Canva</div>
-                <div class="skill-item">Wireframe</div>
-                <div class="skill-item">UX/UI Design</div>
-            
-              </div>
-            
-            </div>
-              <div style="padding-top: 100px;" class="personal-experience-inner mt--40">
-
-                <div class="row">
-                  <!-- Start Skill List Area  -->
-                  <div class="col-lg-6 col-md-12 col-12">
-                    <div class="content">
-                      <span class="subtitle">2018  - PRESENT</span>
-                      <h4 class="maintitle">Education Quality</h4>
-                      <div class="experience-list">
-                        <!-- Start Single List  -->
-                        <div class="resume-single-list">
-                          <div class="inner">
-                            <div class="heading">
-                              <div class="title">
-                                <h4>High School</h4>
-                                <span>Bun Rany Hun Sen Memot 
-                                  2018 - 2020 (FINISHED) 
-                                </span>
-                              </div>
-                            
-                            </div>
-                            <p class="description">
-                              I studied in my hometown until class 12 before moving to Phnom Penh for university.
-                            </p>
-                          </div>
-                        </div>
-                        <!-- End Single List  -->
-
-                        <!-- Start Single List  -->
-                        <div class="resume-single-list">
-                          <div class="inner">
-                            <div class="heading">
-                              <div class="title">
-                                <h4>Bachelor Information Technology Engineering</h4>
-                                <span
-                                  >Royal University of Phnom Penh
-                                  2021- 2024 (FINISHED)</span
-                                >
-                              </div>
-                            
-                            </div>
-                            <p class="description">
-                              I completed a four-year program in the Information Technology Engineering (ITE) department at RUPP, where I gained comprehensive knowledge and hands-on experience in the field.
-                            </p>
-                          </div>
-                        </div>
-                        <!-- End Single List  -->
-
-                        <!-- Start Single List  -->
-                        <div class="resume-single-list">
-                          <div class="inner">
-                            <div class="heading">
-                              <div class="title">
-                                <h4>Schoolarship - iOS Development </h4>
-                                <span
-                                  >   6 month (PRESENT)</span
-                                >
-                              </div>
-        
-                            </div>
-                            <p class="description">
-                              Giving by Ministry of Post and Telecommunications
-                              6 month (PRESENT)
-                            </p>
-                          </div>
-                        </div>
-                        <!-- End Single List  -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Skill List Area  -->
-
-                  <!-- Start Skill List Area 2nd -->
-                  <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                  
-                    <div class="content">
-                  
-                      <span class="subtitle">2021 - PRESENT</span>
-                      <h4 class="maintitle">Job Experience</h4>
-                  
-                      <div class="experience-list">
-                  
-                        <!-- University Project -->
-                        <div class="resume-single-list">
-                          <div class="inner">
-                  
-                            <div class="heading">
-                              <div class="title">
-                                <h4>University Project - RUPP</h4>
-                                <span>(2021 - 2024)</span>
-                              </div>
-                            </div>
-                  
-                            <p class="description">
-                              Pet Rescue (Team Project) - Full Stack Developer using Laravel Framework.
-                            </p>
-                  
-                          </div>
-                  
-                          <div class="inner">
-                  
-                            <div class="heading">
-                              <div class="title">
-                                <span>(2021 - 2024)</span>
-                              </div>
-                            </div>
-                  
-                            <p class="description">
-                              Pet Shop (Team Project) - Developed a responsive Laravel website with user-friendly interfaces.
-                            </p>
-                  
-                          </div>
-                        </div>
-                  
-                        <!-- LOMA Technology -->
-                        <div class="resume-single-list">
-                  
-                          <div class="inner">
-                  
-                            <div class="heading">
-                              <div class="title">
-                                <h4>iOS Developer - LOMA Technology</h4>
-                                <span>(July 2024 - Present)</span>
-                              </div>
-                            </div>
-                  
-                            <p class="description">
-                              Working as an iOS Developer building modern mobile applications with real-time features and clean UI/UX.
-                            </p>
-                  
-                          </div>
-                  
-                          <div class="inner">
-                  
-                            <div class="heading">
-                              <div class="title">
-                                <h4>Folkara</h4>
-                                <span>HR Management Application</span>
-                              </div>
-                            </div>
-                  
-                            <p class="description">
-                              Automated attendance tracking by location and streamlined employee request approvals.
-                            </p>
-                  
-                          </div>
-                  
-                          <div class="inner">
-                  
-                            <div class="heading">
-                              <div class="title">
-                                <h4>AI Coin Master</h4>
-                                <span>Crypto Learning Platform</span>
-                              </div>
-                            </div>
-                  
-                            <p class="description">
-                              Developed interactive cryptocurrency learning simulations with progress tracking.
-                            </p>
-                  
-                          </div>
-                  
-                          <div class="inner">
-                  
-                            <div class="heading">
-                              <div class="title">
-                                <h4>Lucky Info</h4>
-                                <span>Sports & News Application</span>
-                              </div>
-                            </div>
-                  
-                            <p class="description">
-                              Built a platform for live scores, highlights, and latest sports news.
-                            </p>
-                  
-                          </div>
-                  
-                          <div class="inner">
-                  
-                            <div class="heading">
-                              <div class="title">
-                                <h4>Unity Game</h4>
-                                <span>App Store Release</span>
-                              </div>
-                            </div>
-                  
-                            <p class="description">
-                              Configured Unity iOS source code in Xcode and prepared deployment to the App Store.
-                            </p>
-                  
-                          </div>
-                  
-                        </div>
-                  
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Skill List Area -->
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Resume Area -->
-
-  <!-- Start News Area -->
-  <div class="rn-blog-area rn-section-gap section-separator" id="blog">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="100"
-            data-aos-once="true"
-            class="section-title text-center"
-          >
-            <span class="subtitle">Summary about me </span>
-            <h2 class="title">About Me </h2>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 col-md-10">
-            <div class="text-center">
-        
-              <p class="about-description">
-Through multiple completed projects, I have gained solid experience in SwiftUI, mobile UI design, API integration, app
-testing, releasing applications to the App Store, and performance optimization. I also implement clean project
-structures using the MVVM architecture to ensure scalability, maintainability, and clear separation of concerns. I enjoy
-turning ideas into fully functioning apps and value the process of continuous learning and improvement.              </p>
-            
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  <!-- ENd Mews Area -->
-
-  <!-- Modal Portfolio Body area Start -->
-  <div
-    class="modal fade"
-    id="exampleModalCenter"
-    tabindex="-1"
-    role="dialog"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button
-            type="button"
-            class="close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i data-feather="x"></i></span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="portfolio-popup-thumbnail">
-                <div class="image">
-                  <div class="thumbnail">
-                    <a href="javascript:void(0)">
-                      <video width="520" height="440" controls>
-                        <source src="assets/images/videos/DemoPetR.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="text-content">
-                <h3>
-                  <span>Featured - Design</span> App Design Development.
-                </h3>
-                <p class="mb--30">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate distinctio assumenda explicabo veniam
-                  temporibus eligendi.
-                </p>
-                <p>
-                  Consectetur adipisicing elit. Cupiditate distinctio
-                  assumenda. dolorum alias suscipit rerum maiores aliquam
-                  earum odit, nihil culpa quas iusto hic minus!
-                </p>
-                <div class="button-group mt--20">
-                  <a href="#" class="rn-btn thumbs-icon">
-                    <span>LIKE THIS</span>
-                    <i data-feather="thumbs-up"></i>
-                  </a>
-                  <a href="#" class="rn-btn">
-                    <span>VIEW PROJECT</span>
-                    <i data-feather="chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End of .text-content -->
-            </div>
-          </div>
-          <!-- End of .row Body-->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Modal Portfolio area -->
-  <!-- Modal Blog Body area Start -->
-  <div
-    class="modal fade"
-    id="exampleModalCenters"
-    tabindex="-1"
-    role="dialog"
-    aria-hidden="true"
-  >
-    <div
-      class="modal-dialog modal-dialog-centered modal-news"
-      role="document"
-    >
-      <div class="modal-content">
-        <div class="modal-header">
-          <button
-            type="button"
-            class="close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i data-feather="x"></i></span>
-          </button>
-        </div>
-
-        <!-- End of .modal-header -->
-
-        <div class="modal-body">
-          <img
-            src="assets/images/blog/blog-big-01.jpg"
-            alt="news modal"
-            class="img-fluid modal-feat-img"
-          />
-          <div class="news-details">
-            <span class="date">2 May, 2021</span>
-            <h2 class="title">Digital Marketo to Their New Office.</h2>
-            <p>
-              Nobis eleifend option congue nihil imperdiet doming id quod
-              mazim placerat facer possim assum. Typi non habent claritatem
-              insitam; est usus legentis in iis qui facit eorum claritatem.
-              Investigationes demonstraverunt lectores legere me lius quod
-              ii legunt saepius. Claritas est etiam processus dynamicus, qui
-              sequitur mutationem consuetudium lectorum.
-            </p>
-            <h4>Nobis eleifend option conguenes.</h4>
-            <p>
-              Mauris tempor, orci id pellentesque convallis, massa mi congue
-              eros, sed posuere massa nunc quis dui. Integer ornare varius
-              mi, in vehicula orci scelerisque sed. Fusce a massa nisi.
-              Curabitur sit amet suscipit nisl. Sed eget nisl laoreet,
-              suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in
-              rutrum erat dignissim id.
-            </p>
-            <p>
-              Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula
-              cursus venenatis. Class aptent taciti sociosqu ad litora
-              torquent per conubia nostra, per inceptos himenaeos. Nunc
-              vitae nisi tortor. Morbi leo nulla, posuere vel lectus a,
-              egestas posuere lacus. Fusce eleifend hendrerit bibendum.
-              Morbi nec efficitur ex.
-            </p>
-            <h4>Mauris tempor, orci id pellentesque.</h4>
-            <p>
-              Nulla non ligula vel nisi blandit egestas vel eget leo.
-              Praesent fringilla dapibus dignissim. Pellentesque quis quam
-              enim. Vestibulum ultrices, leo id suscipit efficitur, odio
-              lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque
-              tempor urna a nisi pretium, a pretium massa tristique. Nullam
-              in aliquam diam. Maecenas at nibh gravida, ornare eros non,
-              commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec
-              imperdiet purus, in ornare odio. Quisque odio felis,
-              vestibulum et.
-            </p>
-          </div>
-
-          <!-- Comment Section Area Start -->
-          <div class="comment-inner">
-            <h3 class="title mb--40 mt--50">Leave a Reply</h3>
-            <form action="#">
-              <div class="row">
-                <div class="col-lg-6 col-md-12 col-12">
-                  <div class="rnform-group">
-                    <input type="text" placeholder="Name" />
-                  </div>
-                  <div class="rnform-group">
-                    <input type="email" placeholder="Email" />
-                  </div>
-                  <div class="rnform-group">
-                    <input type="text" placeholder="Website" />
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                  <div class="rnform-group">
-                    <textarea placeholder="Comment"></textarea>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <a class="rn-btn" href="#"><span>SUBMIT NOW</span></a>
-                </div>
-              </div>
-            </form>
-          </div>
-          <!-- Comment Section End -->
-        </div>
-        <!-- End of .modal-body -->
-      </div>
-    </div>
-  </div>
-  <!-- End Modal Blog area -->
-  <!-- Back to  top Start -->
-  <div class="backto-top">
-    <div>
-      <i data-feather="arrow-up"></i>
-    </div>
-  </div>
-  <!-- Back to top end -->
-
-  <!-- Start Modal Area  -->
-  <div class="demo-modal-area">
-    <div class="wrapper">
-      <div class="close-icon">
-        <button class="demo-close-btn">
-          <span class="feather-x"></span>
-        </button>
-      </div>
-      <div class="rn-modal-inner">
-        <div class="demo-top text-center">
-          <h4 class="title">Ra Dalin</h4>
-        </div>
-        <ul class="popuptab-area nav nav-tabs" id="popuptab" role="tablist">
-          <li class="nav-item">
-            <a
-              class="nav-link active demo-dark"
-              id="demodark-tab"
-              data-bs-toggle="tab"
-              href="#demodark"
-              role="tab"
-              aria-controls="demodark"
-              aria-selected="true"
-              >Dark Demo</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link demo-light"
-              id="demolight-tab"
-              data-bs-toggle="tab"
-              href="#demolight"
-              role="tab"
-              aria-controls="demolight"
-              aria-selected="false"
-              >Light Demo</a
-            >
-          </li>
-        </ul>
-        <div class="tab-content" id="popuptabContent">
-          <div
-            class="tab-pane show active"
-            id="demodark"
-            role="tabpanel"
-            aria-labelledby="demodark-tab"
-          >
-            <div class="content">
-              <div class="row">
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="index.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/main-demo.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index.html">Main Demo</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-2">
-                      <div class="thumbnail">
-                        <a href="index-technician.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/index-technician.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-technician.html">Technician</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-2">
-                      <div class="thumbnail">
-                        <a href="index-model.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-model-v2.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-model.html">Model</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-1">
-                      <div class="thumbnail">
-                        <a href="home-consulting.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-consulting.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-consulting.html">Consulting</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-1">
-                      <div class="thumbnail">
-                        <a href="fashion-designer.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/fashion-designer.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="fashion-designer.html"
-                            >Fashion Designer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="index-developer.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/developer.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-developer.html">Developer</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="instructor-fitness.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/instructor-fitness.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="instructor-fitness.html"
-                            >Fitness Instructor</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-1">
-                      <div class="thumbnail">
-                        <a href="home-web-Developer.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-model.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-web-Developer.html"
-                            >Web Developer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-designer.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-video.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-designer.html">Designer</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-content-writer.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/text-rotet.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-content-writer.html"
-                            >Content Writter</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-instructor.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/index-boxed.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-instructor.html">Instructor</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-freelancer.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-sticky.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-freelancer.html">Freelancer</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-photographer.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/index-bg-image.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-photographer.html">Photographer</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="index-politician.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/front-end.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-politician.html">Politician</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo coming-soon">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="#">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/coming-soon.png"
-                            alt="Personal Portfolio"
-                          />
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title"><a href="#">Accountant</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="tab-pane"
-            id="demolight"
-            role="tabpanel"
-            aria-labelledby="demolight-tab"
-          >
-            <div class="content">
-              <div class="row">
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="index-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/main-demo-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-white-version.html">Main Demo</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-2">
-                      <div class="thumbnail">
-                        <a href="index-technician-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/index-technician-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-technician-white-version.html"
-                            >Technician</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-2">
-                      <div class="thumbnail">
-                        <a href="index-model-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-model-v2-white.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-model-white-version.html">Model</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-1">
-                      <div class="thumbnail">
-                        <a href="home-consulting-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-consulting-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-consulting-white-version.html"
-                            >Consulting</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-1">
-                      <div class="thumbnail">
-                        <a href="fashion-designer-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/fashion-designer-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="fashion-designer-white-version.html"
-                            >Fashion Designer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="index-developer-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/developer-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-developer-white-version.html"
-                            >Developer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="instructor-fitness-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/instructor-fitness-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="instructor-fitness-white-version.html"
-                            >Fitness Instructor</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner badge-1">
-                      <div class="thumbnail">
-                        <a href="home-web-developer-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-model-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-web-developer-white-version.html"
-                            >Web Developer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-designer-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-video-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-designer-white-version.html"
-                            >Designer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-content-writer-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/text-rotet-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-content-writer-white-version.html"
-                            >Content Writter</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-instructor-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/index-boxed-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-instructor-white-version.html"
-                            >Instructor</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-freelancer-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/home-sticky-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-freelancer-white-version.html"
-                            >Freelancer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="home-photographer-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/index-bg-image-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="home-photographer-white-version.html"
-                            >Photographer</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="index-politician-white-version.html">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/front-end-white-version.png"
-                            alt="Personal Portfolio"
-                          />
-                          <span class="overlay-content">
-                            <span class="overlay-text"
-                              >View Demo
-                              <i class="feather-external-link"></i
-                            ></span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title">
-                          <a href="index-politician-white-version.html"
-                            >Politician</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-
-                <!-- Start Single Content  -->
-                <div class="col-lg-4 col-md-6 col-12">
-                  <div class="single-demo coming-soon">
-                    <div class="inner">
-                      <div class="thumbnail">
-                        <a href="#">
-                          <img
-                            class="w-100"
-                            src="assets/images/demo/coming-soon.png"
-                            alt="Personal Portfolio"
-                          />
-                        </a>
-                      </div>
-                      <div class="inner">
-                        <h3 class="title"><a href="#">Accountant</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Content  -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Modal Area  -->
-</main>
-
-<!-- Start Footer Area -->
-<div class="rn-footer-area rn-section-gap section-separator">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="footer-area text-center">
-          <div class="logo">
-            <a href="index.html">
-              <img
-                src="assets/images/logo/dalin.png"
-                alt="logo"
-              />
-            </a>
-          </div>
-          <p class="description mt--30">
-            © 2024. All rights reserved by
-            <a
-              target="_blank"
-              href="https://themeforest.net/user/rainbow-themes/portfolio"
-              >Ra Dalin.</a
-            >
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Footer Area -->
-
-<!-- JS ============================================ -->
-<script src="assets/js/vendor/jquery.js"></script>
-<script src="assets/js/vendor/modernizer.min.js"></script>
-<script src="assets/js/vendor/feather.min.js"></script>
-<script src="assets/js/vendor/slick.min.js"></script>
-<script src="assets/js/vendor/bootstrap.js"></script>
-<script src="assets/js/vendor/text-type.js"></script>
-<script src="assets/js/vendor/wow.js"></script>
-<script src="assets/js/vendor/aos.js"></script>
-<script src="assets/js/vendor/parti cles.js"></script>
-<script src="assets/js/vendor/jquery-one-page-nav.js"></script>
-<!-- main JS -->
-<script src="assets/js/main.js"></script>
+    // ── Fetch & inject skill carousel ──────────────────────
+    fetch('skill.html')
+      .then(r => {
+        if (!r.ok) throw new Error('skill.html not found');
+        return r.text();
+      })
+      .then(html => {
+        const mount = document.getElementById('skill-mount');
+        mount.innerHTML = html;
+        mount.querySelectorAll('script').forEach(old => {
+          const s = document.createElement('script');
+          s.textContent = old.textContent;
+          document.body.appendChild(s);
+          old.remove();
+        });
+      })
+      .catch(e => console.warn('skill.html:', e));
+  </script>
 </body>
 
 </html>

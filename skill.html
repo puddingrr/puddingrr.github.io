@@ -1,0 +1,56 @@
+<div class="carousel-root">
+<div class="section-heading-skills">
+  <div class="section-label">Portfolio</div>
+  <h2 class="section-title">Skills</h2>
+</div>
+  <div class="track-wrapper">
+    <div class="track row1" id="r1"></div>
+  </div>
+
+  <div class="track-wrapper">
+    <div class="track row2" id="r2"></div>
+  </div>
+</div>
+
+<script>
+  const row1 = [
+    { icon: "ti-code",         bg: "#EEEDFE", fg: "#534AB7", name: "Swift"  },
+    { icon: "ti-brand-react",  bg: "#E6F1FB", fg: "#185FA5", name: "UIKit"       },
+    { icon: "ti-server",       bg: "#E1F5EE", fg: "#0F6E56", name: "PHP"     },
+    { icon: "ti-database",     bg: "#FAEEDA", fg: "#854F0B", name: "PostgreSQL"  },
+    { icon: "ti-brand-python", bg: "#EAF3DE", fg: "#3B6D11", name: "PhpMyadmin"      },
+    { icon: "ti-layout",       bg: "#FAECE7", fg: "#993C1D", name: "HTML/CSS"  },
+    { icon: "ti-git-branch",   bg: "#FBEAF0", fg: "#993556", name: "Git"         },
+    { icon: "ti-cloud",        bg: "#E6F1FB", fg: "#185FA5", name: "SwiftUI"         },
+  ];
+
+  const row2 = [
+    { icon: "ti-brand-docker",     bg: "#E1F5EE", fg: "#0F6E56", name: "Android Studio"      },
+    { icon: "ti-api",              bg: "#EEEDFE", fg: "#534AB7", name: "REST APIs"   },
+    { icon: "ti-pencil",           bg: "#FAEEDA", fg: "#854F0B", name: "Figma"       },
+    { icon: "ti-brand-typescript", bg: "#E6F1FB", fg: "#185FA5", name: "Postman"  },
+    { icon: "ti-test-pipe",        bg: "#FBEAF0", fg: "#993556", name: "Laravel"        },
+    { icon: "ti-chart-bar",        bg: "#E1F5EE", fg: "#0F6E56", name: "WebSocket"    },
+    { icon: "ti-terminal",         bg: "#EAF3DE", fg: "#3B6D11", name: "Canva"  },
+    { icon: "ti-infinity",         bg: "#E6F1FB", fg: "#185FA5", name: "Flutter"     },
+  ];
+
+  function buildCard(s) {
+    return `<div class="skill-card">
+      <div class="skill-icon" style="background:${s.bg}">
+        <i class="ti ${s.icon}" style="color:${s.fg}" aria-hidden="true"></i>
+      </div>
+      <span class="skill-name">${s.name}</span>
+    </div>`;
+  }
+
+  function populate(id, skills) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const markup = skills.map(buildCard).join('');
+    el.innerHTML = markup + markup; // duplicate for seamless loop
+  }
+
+  populate('r1', row1);
+  populate('r2', row2);
+</script>
